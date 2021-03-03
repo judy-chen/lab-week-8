@@ -3,7 +3,6 @@ body {
     color: #334259;
     font-family: 'Noto Serif', serif;
     margin: 0;
-    
 }
 
 h1 {
@@ -14,9 +13,8 @@ h2 {
     font-size: 18px;
 }
 
-.content, .sidebar {
-    padding-left: 30px;
-    padding-right: 30px;
+h1, h2, a {
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -32,29 +30,38 @@ h2 {
 
 .header {
     grid-area: header;
-    border: 4px solid #6E8783;
-    background-color: #6E8783;
+    border: 4px solid #334259;
+    background-color: #334259;
+}
+
+.content {
+    grid-area: content;
 }
 
 .sidebar {
     background-color: #334259;
-    color: #E5E5DC ;
+    color: #E5E5DC;
 }
 
 .sidebar-list{
     padding-left: 0;
 }
 
+.content, .sidebar {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .footer {
     grid-area: footer;
-    background-color: #6E8783;
+    background-color: #334259;
     color: #E5E5DC;
 }
 
 a, a:visited {
     text-decoration: none;
     color: #E5E5DC;
-    font-size: 20px;
+    font-size: 24px;
   }
   
 nav a:hover {
